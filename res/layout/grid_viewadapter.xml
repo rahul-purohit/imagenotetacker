@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    android:background="@drawable/image_back"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <com.cognustechnology.Image.SquareView
+        android:layout_width="match_parent"
+        android:layout_height="200dp" >
+
+        <com.cognustechnology.Image.SmartImageView
+            android:id="@+id/getCamera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true" />
+    </com.cognustechnology.Image.SquareView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#90000000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/twt_clk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit" />
+
+        <ImageView
+            android:id="@+id/fb_clk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_facebook" />
+
+        <ImageView
+            android:id="@+id/twt_clk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/fb_clk"
+            android:src="@drawable/ic_twitter" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         
+            android:adjustViewBounds="true"
+            android:scaleType="center"
+            android:src="@drawable/ic_upload" />
+    </LinearLayout>
+
+</RelativeLayout>

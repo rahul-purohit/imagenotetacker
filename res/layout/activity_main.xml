@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <View
+        android:id="@+id/View02"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/line_color"
+        android:padding="3dp" />
+
+    <LinearLayout
+        android:id="@+id/sdadsd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/View02"
+        android:layout_below="@+id/add_gallery"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/View01"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/line_color"
+            android:padding="3dp" />
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.35"
+            android:drawSelectorOnTop="true"
+            tools:listitem="@layout/item_layout" >
+        </ListView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/add_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@+id/sdadsd"
+        android:layout_alignParentTop="true"
+        android:layout_margin="3dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/selectoer"
+        android:padding="3dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_add" />
+
+</RelativeLayout>

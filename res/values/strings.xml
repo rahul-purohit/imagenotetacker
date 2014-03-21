@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImageNoteTacker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <color name="line_color">#623B1A</color>
+    <color name="theme_color">#66BFBFBF</color>
+    <color name="andi_blue_dark">#0099CC</color>
+    <color name="andi_blue_light">#33B5E5</color>
+    <color name="andi_gray_color">#c2c2c2</color>
+    <color name="andi_blue_light_tranc">#800099CC</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="navi_draw_header">#E0E0E0</color>
+    <color name="navi_dra_item">#F8F8F8</color>
+    <color name="home_imge_slider_navigation">#80808080</color>
+    <color name="back_color">#F0C830</color>
+    <color name="navi_grey_color">#ABABAB</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="text_color">#623B1A</color>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gallery_name">Gallery Name</string>
+    <string name="add">Add</string>
+    <string name="gallery_add">Add Gallery</string>
+    <string name="title_activity_image_viewer">ImageViewerActivity</string>
+    <string name="description">"Description "</string>
+    <string name="app_id">257544827750065</string>
+    <string name="AddMemo">Add in Memo</string>
+
+</resources>
